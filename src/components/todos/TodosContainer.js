@@ -10,4 +10,10 @@ class TodoContainer extends Component {
   }
 };
 
+const mapDispatchToProps = state => {
+  return {
+    todos: state.todos
+  }
+}
+
 export default connect()(TodosContainer);
