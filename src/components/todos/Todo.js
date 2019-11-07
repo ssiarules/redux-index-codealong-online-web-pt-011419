@@ -1,4 +1,4 @@
-import React from 'react'; 
+import React from 'react';
 
 const Todo = props => {
   return (
@@ -7,4 +7,3 @@ const Todo = props => {
 };
 
 export default Todo;
-
