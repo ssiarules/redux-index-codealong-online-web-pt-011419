@@ -10,7 +10,7 @@ class TodoContainer extends Component {
   }
 };
 
-const mapDispatchToProps = state => {
+const mapStateToProps = state => {
   return {
     todos: state.todos
   }
