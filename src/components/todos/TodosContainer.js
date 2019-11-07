@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Todo from './Todo';
 
-class TodoContainer extends Component {
+class TodosContainer extends Component {
 
   renderTodos = () => this.props.todos.map((todo, id) => <Todo key={id} text={todo} />)
 
